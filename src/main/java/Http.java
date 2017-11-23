@@ -18,7 +18,7 @@ public class Http {
     public void sendPhotoTo(File binaryFile, String chat_id) {
         {
             try {
-                String url = "https://api.telegram.org/bot424249083:AAGgiUn1MTFCC6U6xH0wwMV3h1AiaBChxSg/sendPhoto?chat_id=" + chat_id;
+                String url = "https://api.telegram.org/bot476871764:AAEE_jxroAgUuU2mjC14lq3desSLPy7xDec/sendPhoto?chat_id=" + chat_id;
                 connections = new URL(url).openConnection();
             } catch (IOException e) {
                 e.printStackTrace();

@@ -23,7 +23,7 @@ public class Tlg extends TelegramLongPollingBot{
     }
     @Override
     public String getBotUsername() {
-        return "WatchdogBot";
+        return "shvarkBot";
         //возвращаем юзера
     }
 

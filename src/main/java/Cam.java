@@ -15,7 +15,7 @@ public class Cam {
 
 
     //    public static boolean wrd_act = true;
-    public static boolean wrd_init = false;
+    public static boolean wrd_init = true;
 
     public static void photoWarden(){
         System.loadLibrary(Core.NATIVE_LIBRARY_NAME);
